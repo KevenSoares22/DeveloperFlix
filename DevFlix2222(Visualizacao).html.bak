@@ -79,7 +79,7 @@
 		<label>
 			 <span>Mensagem</span>
 			<textarea class="message" name="feedback" id="feedback"></textarea>
-			<input type="submit" class="button" value="Enviar">
+			<input type="submit" class="button" value="Enviar" name="Enviar">
 		</label>
 	</div>
 </form>
