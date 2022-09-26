@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<title>DevFlix</title>
+<link rel="stylesheet" href="DevFlix22.css">
+        
+		
+
+
+
+</head>
+
+<body>
+<header>
+<nav>
+   
+
+     <h1>DEVELOPERFLIX</h1>
+	
+	
+	
+	
+	<div class="mobile">
+	<div class="linha01"></div>
+	<div class="linha02"></div>
+	<div class="linha03"></div>
+	</div>
+    	    
+      <ul class="nav-list">
+	  
+	  
+
+        <li><a href="DevFlix22.php">Cadastrar</a></li>
+        <li><a href="DevFlix22.php">Login</a></li>
+		<li><a href="DevFlix22.php">Filmes de Comédia</a></li>
+		
+		<li><a href="DevFlix22.php">Filmes de Ação</a></li>
+		
+      </ul>
+	  
+	  
+
+ 
+
+ 
+ </nav>
+</header> 
+
+
+ <main class="formulario">
+
+
+
+
+<form name="meuForm" method="post" id="formulario">
+	<div class="box">
+		<h1 class="center">Solicitar filme</h1>
+
+		<label>
+			<span>Nome Completo</span>
+ 			<input type="text" class="input_text" name="nome" id="name"/>
+
+		</label>
+
+		<label>
+ 			<span>Email</span>
+			<input type="text" class="input_text" name="email" id="email"/>
+		 </label>
+
+		<label>
+ 			<span>Login</span>
+			<input type="text" class="input_text" name="assunto" id="subject"/>
+		</label>
+
+		<label>
+			 <span>Mensagem</span>
+			<textarea class="message" name="feedback" id="feedback"></textarea>
+			<input type="submit" class="button" value="Enviar" />
+		</label>
+	</div>
+</form>
+
+
+
+
+<?php
+
+$nome=$_POST['nome'];
+$email=$_POST['email'];
+
+echo "Olá $nome, um email de confirmação foi enviado para $email ";
+>
+
+
+
+
+
+ 
+ 
+    </main>
+	
+	
+	
+  
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+  
+
+
+<script src="DevFlix22.js"></script>
+
+</body>
+
+</html>
